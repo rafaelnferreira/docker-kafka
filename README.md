@@ -58,6 +58,13 @@ In the box
 
   The docker image with both Kafka and Zookeeper. Built from the `kafka`
   directory.
+  
+  To build:
+  
+```bash
+cd docker
+docker build -t calypsolon/kafka
+```
 
 * **spotify/kafkaproxy**
 
