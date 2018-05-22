@@ -58,13 +58,6 @@ In the box
 
   The docker image with both Kafka and Zookeeper. Built from the `kafka`
   directory.
-  
-  To build:
-  
-```bash
-cd docker
-docker build -t calypsolon/kafka
-```
 
 * **spotify/kafkaproxy**
 
@@ -81,8 +74,8 @@ https://registry.hub.docker.com/u/spotify/kafkaproxy/
 Build from Source
 ---
 
-    docker build -t spotify/kafka kafka/
-    docker build -t spotify/kafkaproxy kafkaproxy/
+    docker build -t calypsolon/kafka kafka/
+    docker build -t calypsolon/kafkaproxy kafkaproxy/
 
 Todo
 ---
